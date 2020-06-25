@@ -1,0 +1,53 @@
+header {
+  width: 90vw;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.title {
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.title span {
+  color: goldenrod;
+}
+
+.subtitle {
+  width: 100%;
+  background: lightgoldenrodyellow;
+  padding: 0.3rem;
+  color: goldenrod;
+  font-weight: 100;
+}
+
+.header-img {
+  width: 100vw;
+  background: whitesmoke;
+  border-top: 5px solid lightgoldenrodyellow;
+}
+
+.image {
+  width: 20%;
+}
+
+.img {
+  width: 10%;
+  margin: 1rem auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .image {
+    width: 50%;
+  }
+  .img {
+    width: 40%;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+}
